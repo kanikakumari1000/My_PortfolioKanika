@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+:root{
+    --navbar-color--:#fa4108;
+}
+body{
+    background-color:rgba(0, 0, 0, 0.332);
+}
+.navbar{
+    background-color:var(--navbar-color--);
+}
+.navbar-nav .nav-link{
+    color:black;
+    gap: 1px;
+}
+.navbar-nav .nav-link:hover{
+    color: var(--navbar-color--);
+    background-color:white;
+    border-radius: 50%;
+}
+.body-content{
+    margin-top: 1rem;
+}
+.first{
+    margin-top: 3rem;
+}
+.first h4 span, h5 span{
+    color: var(--navbar-color--);
+}
+.my-img{
+    margin-top: 3rem;
+}
+.my-img a img{
+    width:350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.main-column h4{
+    margin-top: 1rem;
+    display: inline-block; 
+    background-color:var(--navbar-color--);
+}
+.main-column h5{
+    /* background-color: var(--navbar-color--); */
+    text-decoration: underline;
+    text-decoration-color:var(--navbar-color--);
+    
+}
+.info-item span{
+    font-size:10px;
+    font-weight:500;
+    gap: -1px;
+}
+.Folllow-info{
+    display: flex;
+}
+.Folllow-info a img{
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    cursor: pointer;
+}
+.follow-heading{
+    font-weight: 200;
+    text-decoration: underline;
+    text-decoration-color: var(--navbar-color--);
+}
+.contact-section{
+    margin-top: 2rem;
+}
+.contact-form{
+    background-color: var(--navbar-color--);
+    border-radius: 5px;
+}
+.contact-form h6{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.my-form input,textarea,button{
+    width: 100%;
+    /* height: 50px; */
+    margin: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 5px;
+    border-radius: 15px;
+    outline-style: none;
+}
+.my-form button:hover{
+    background-color: var(--navbar-color--);
+    box-shadow:  0 0 35px white;
+}
+.cv-info{
+    margin-top:1rem;
+}
+.cv-info a{
+    padding: 10px 25px;
+    text-decoration: none;
+    border: var(--navbar-color--) 1px solid;
+    border-radius: 35px;
+    color: white;
+    background-color: var(--navbar-color--);
+}
+.cv-info a:hover{
+    box-shadow:  0 0 35px 10px white;
+}
+.main-portfolio h4{
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+.project-one h5,.git-hub-link h6{
+    text-decoration: underline;
+    text-decoration-color: var(--navbar-color--);
+}
+.first-module h6, .second-module h6 ,.third-module h6{
+    margin-top: 1rem;
+    display: inline-block; 
+    background-color:var(--navbar-color--);
+    
+}
+/* .info-item p .html {
+    background-color:rgb(162, 162, 220); 
+    height: 15px;
+    width:90%;
+} */
+.progress-row h6{
+    font-weight: 200;
+}
+
+
